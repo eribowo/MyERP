@@ -1,0 +1,484 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eri_pos_bonus
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eri POS Bonus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-23 12:52+0000\n"
+"PO-Revision-Date: 2018-03-25 20:24-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+# HEHO
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_program_name
+msgid "An internal identification for the loyalty program configuration"
+msgstr "Una identificación interna para la configuración del programa de fidelización"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_name
+msgid "An internal identification for this loyalty program rule"
+msgstr "Una identificación interna para esta regla del programa de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_name
+msgid "An internal identification for this loyalty reward"
+msgstr "Una identificación interna para esta recompensa de lealtad"
+
+#. module: eri_pos_bonus
+#: selection:loyalty.rule,rule_type:0
+msgid "Category"
+msgstr "Categoría"
+
+#. module: eri_pos_bonus
+#: model:ir.actions.act_window,help:eri_pos_bonus.action_loyalty_program_form
+msgid "Click to create a Loyalty Program."
+msgstr "Haga clic para crear un programa de lealtad."
+
+#. module: eri_pos_bonus
+#: model:ir.model,name:eri_pos_bonus.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_create_uid
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_create_uid
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_create_date
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_create_date
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_cumulative
+msgid "Cumulative"
+msgstr "Acumulativo"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:91
+#, python-format
+msgid "Customer bonus points:"
+msgstr "Puntos de bonificación del cliente:"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:88
+#, python-format
+msgid "Customer name:"
+msgstr "Nombre del cliente:"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_discount
+#: selection:loyalty.reward,reward_type:0
+msgid "Discount"
+msgstr "Descuento"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_discount_product_id
+msgid "Discount Product"
+msgstr "Producto de descuento"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_display_name
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_display_name
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_rule_type
+msgid "Does this rule affects products, or a category of products ?"
+msgstr "¿Esta regla afecta a los productos o a una categoría de productos?"
+
+#. module: eri_pos_bonus
+#: selection:loyalty.reward,reward_type:0
+msgid "Gift"
+msgstr "Regalo"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_gift_product_id
+msgid "Gift Product"
+msgstr "Producto de regalo"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.pos_config_view_form
+msgid "Give customer rewards, bonus, create a bonus card, etc."
+msgstr "Ofrezca recompensas a los clientes, bonos, cree una tarjeta de bonificación, etc."
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_program_pp_product
+msgid "How many loyalty points are given to the customer by product sold"
+msgstr "¿Cuántos puntos de fidelidad se le otorgan al cliente por producto vendido?"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_program_pp_currency
+msgid "How many loyalty points are given to the customer by sold currency"
+msgstr "Cuántos puntos de lealtad se le otorgan al cliente por moneda vendida"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_program_pp_order
+msgid "How many loyalty points are given to the customer for each sale or order"
+msgstr "Cuántos puntos de lealtad se le otorgan al cliente por cada venta u orden"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_pp_product
+msgid "How many points the product will earn per product ordered"
+msgstr "Cuántos puntos ganará el producto por producto ordenado"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_pp_currency
+msgid "How many points the product will earn per value sold"
+msgstr "Cuantos puntos ganará el producto por cada valor vendido"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_id
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_id
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_id
+msgid "ID"
+msgstr "CARNÉ DE IDENTIDAD"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program___last_update
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward___last_update
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_write_uid
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_write_uid
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_write_date
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_write_date
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_write_date
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_pos_order_loyalty_points
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_res_partner_loyalty_points
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_res_users_loyalty_points
+msgid "Loyalty Points"
+msgstr "Puntos de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_loyalty_program_id
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_loyalty_program_id
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_pos_config_loyalty_id
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_form
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_partner_property_form
+msgid "Loyalty Program"
+msgstr "Programa de fidelidad"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.pos_config_view_form
+msgid "Loyalty Program (eri addon)"
+msgstr "Programa de lealtad (complemento de eri)"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_name
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_form
+msgid "Loyalty Program Name"
+msgstr "Nombre del programa de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.actions.act_window,name:eri_pos_bonus.action_loyalty_program_form
+#: model:ir.ui.menu,name:eri_pos_bonus.menu_loyalty_program
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_tree
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_pos_pos_form
+msgid "Loyalty Programs"
+msgstr "Programas de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.actions.act_window,help:eri_pos_bonus.action_loyalty_program_form
+msgid ""
+"Loyalty Programs allows you customer to earn points\n"
+"                    and rewards when doing business at your shops."
+msgstr "Los programas de lealtad le permiten a los clientes ganar puntos y recompensas al hacer negocios en sus tiendas."
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_reward_form
+msgid "Loyalty Reward"
+msgstr "Recompensa de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_rule_form
+msgid "Loyalty Rule"
+msgstr "Regla de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_minimum_points
+msgid "Minimum Points"
+msgstr "Puntos mínimos"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_name
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_point_cost
+msgid "Point Cost"
+msgstr "Costo de punto"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_point_product_id
+msgid "Point Product"
+msgstr "Producto puntual"
+
+#. module: eri_pos_bonus
+#: model:ir.model,name:eri_pos_bonus.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Órdenes de punto de venta"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:6
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:71
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:81
+#, python-format
+msgid "Points"
+msgstr "Puntos"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_rounding
+msgid "Points Rounding"
+msgstr "Redondeo de puntos"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:57
+#, python-format
+msgid "Points Spent"
+msgstr "Puntos gastados"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:54
+#, python-format
+msgid "Points Won"
+msgstr "Puntos ganados"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_pp_currency
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_pp_currency
+msgid "Points per currency"
+msgstr "Puntos por moneda"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_pp_order
+msgid "Points per order"
+msgstr "Puntos por orden"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_pp_product
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_pp_product
+msgid "Points per product"
+msgstr "Puntos por producto"
+
+#. module: eri_pos_bonus
+#: selection:loyalty.rule,rule_type:0
+msgid "Product"
+msgstr "Producto"
+
+#. module: eri_pos_bonus
+#: selection:loyalty.reward,reward_type:0
+msgid "Resale"
+msgstr "Reventa"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_reward_form
+msgid "Reward Name"
+msgstr "Nombre de recompensa"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_form
+msgid "Reward the customer with gifts or discounts for loyalty points"
+msgstr "Recompensa al cliente con regalos o descuentos por puntos de fidelidad"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:25
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_reward_ids
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_form
+#, python-format
+msgid "Rewards"
+msgstr "Recompensas"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_rule_form
+msgid "Rule Name"
+msgstr "Nombre de la regla"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_program_rule_ids
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_form
+msgid "Rules"
+msgstr "Reglas"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.view_loyalty_program_form
+msgid "Rules change how loyalty points are earned for specific products or categories"
+msgstr "Las reglas cambian la forma en que se ganan puntos de lealtad para productos o categorías específicos"
+
+#. module: eri_pos_bonus
+#: model:ir.ui.view,arch_db:eri_pos_bonus.pos_config_view_form
+msgid "Select a Loyalty program to use for this point of sale."
+msgstr "Seleccione un programa de Lealtad para usar en este punto de venta."
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_category_id
+msgid "Target Category"
+msgstr "Categoría objetivo"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_product_id
+msgid "Target Product"
+msgstr "Producto objetivo"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_loyalty_program_id
+msgid "The Loyalty Program this exception belongs to"
+msgstr "El Programa de Lealtad esta excepción pertenece a"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_loyalty_program_id
+msgid "The Loyalty Program this reward belongs to"
+msgstr "El Programa de Lealtad al que pertenece esta recompensa"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_pos_order_loyalty_points
+msgid "The amount of Loyalty points the customer won or lost with this order"
+msgstr "La cantidad de puntos de fidelidad que el cliente ganó o perdió con esta orden"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_category_id
+msgid "The category affected by the rule"
+msgstr "La categoría afectada por la regla"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_point_cost
+msgid "The cost of the reward"
+msgstr "El costo de la recompensa"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_discount
+msgid "The discount percentage"
+msgstr "El porcentaje de descuento"
+
+#. module: eri_pos_bonus
+#: constraint:loyalty.reward:0
+msgid "The discount product field is mandatory for discount rewards"
+msgstr "El campo del producto de descuento es obligatorio para las recompensas de descuento"
+
+#. module: eri_pos_bonus
+#: constraint:loyalty.reward:0
+msgid "The gift product field is mandatory for gift rewards"
+msgstr "El campo del producto de regalo es obligatorio para recompensas de regalo"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_program_rounding
+msgid "The loyalty point amounts are rounded to multiples of this value."
+msgstr "Los importes del punto de fidelidad se redondean a múltiplos de este valor."
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_res_partner_loyalty_points
+#: model:ir.model.fields,help:eri_pos_bonus.field_res_users_loyalty_points
+msgid "The loyalty points the user won as part of a Loyalty Program"
+msgstr "Los puntos de fidelidad que ganó el usuario como parte de un programa de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_pos_config_loyalty_id
+msgid "The loyalty program used by this point_of_sale"
+msgstr "El programa de lealtad utilizado por este punto de venta"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_minimum_points
+msgid "The minimum amount of points the customer must have to qualify for this reward"
+msgstr "La cantidad mínima de puntos que el cliente debe tener para calificar para esta recompensa"
+
+#. module: eri_pos_bonus
+#: constraint:loyalty.reward:0
+msgid "The point product field is mandatory for point resale rewards"
+msgstr "El campo de producto puntual es obligatorio para las recompensas de reventa de puntos"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_cumulative
+msgid "The points won from this rule will be won in addition to other rules"
+msgstr "Los puntos ganados de esta regla se ganarán además de otras reglas"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_rule_product_id
+msgid "The product affected by the rule"
+msgstr "El producto afectado por la regla"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_gift_product_id
+msgid "The product given as a reward"
+msgstr "El producto dado como recompensa"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_point_product_id
+msgid "The product that represents a point that is sold by the customer"
+msgstr "El producto que representa un punto que es vendido por el cliente"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_discount_product_id
+msgid "The product used to apply discounts"
+msgstr "El producto utilizado para aplicar descuentos"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,help:eri_pos_bonus.field_loyalty_reward_reward_type
+msgid "The type of the reward"
+msgstr "El tipo de recompensa"
+
+#. module: eri_pos_bonus
+#. openerp-web
+#: code:addons/eri_pos_bonus/static/src/xml/loyalty.xml:60
+#, python-format
+msgid "Total Points"
+msgstr "Puntos totales"
+
+#. module: eri_pos_bonus
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_reward_reward_type
+#: model:ir.model.fields,field_description:eri_pos_bonus.field_loyalty_rule_rule_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: eri_pos_bonus
+#: model:ir.model,name:eri_pos_bonus.model_loyalty_program
+msgid "loyalty.program"
+msgstr "Programa de fidelidad"
+
+#. module: eri_pos_bonus
+#: model:ir.model,name:eri_pos_bonus.model_loyalty_reward
+msgid "loyalty.reward"
+msgstr "Recompensa de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.model,name:eri_pos_bonus.model_loyalty_rule
+msgid "loyalty.rule"
+msgstr "Regla de lealtad"
+
+#. module: eri_pos_bonus
+#: model:ir.model,name:eri_pos_bonus.model_pos_config
+msgid "pos.config"
+msgstr "Configuración de POS"
